@@ -1,0 +1,304 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/* Navigation */
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+/*---- 로고 크기 설정-------*/
+.navbar-brand img
+{
+  height: 60px;
+  padding-left: 70px;
+}
+.navbar-nav li
+{
+  padding: 0 20px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+  color: #007bff!important;
+  font-weight: bold;
+}
+.navbar
+{
+  background: #007bff
+}
+.navbar-toggler
+{
+  border: none!important
+}
+.navi-link
+{
+  color: #555 !important;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+
+/* Main 메인화면 */
+#about
+{
+    background-color: #fff;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/);
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-img
+{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+#main-bottom
+{
+	background-image: /*linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),*/url("../img/main-bottom.jpg");
+	-webkit-filter : grayscale(100%);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 120px;
+}
+#main-bottom p
+{
+	color: #fff;
+	font-size: 15px;
+}
+#main-bottom span
+{
+	font-size: 18px!important;
+}
+
+
+/* About 소개 */
+#about
+{
+    background-color: #000;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about h1
+{
+    color: #fff;
+    text-align: center;
+	margin-bottom: 20px;
+}
+#about h1::after
+{
+  content: ' ';
+  background: #fff;
+  display: block;
+  height: 3px;
+  width: 350px;
+  margin: 10px auto 5px;
+}
+.about-content
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 30px;
+	color: #fff;
+}
+.about-content span
+{
+	font-size: 25px;
+}
+#about-pool span
+{
+	color: #fff;
+	font-size: 25px;
+}
+.about-content:hover
+{
+	-webkit-transform: scale(1.05);
+	transition: 0.5sec;
+}
+.about-content2
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 30px;
+	color: #fff;
+}
+.about-content2 img:hover
+{
+	-webkit-transform: scale(1.07);
+	transition: 0.5sec;
+}
+#about-content1
+{
+	padding: 20px;
+	text-align: left!important;
+}
+#about-content2
+{
+	padding: 20px;
+	text-align: right!important;
+}
+#about-pool
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("../img/pool-6.jpg");
+	background-color: #E6E6E6;
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about-content3
+{
+	text-align: center!important;
+	color: #000;
+}
+#about-content3:hover
+{
+	-webkit-transform: scale(1.07);
+	transition: 0.5sec;
+}
+#about-content3 h5
+{
+	color: #fff;
+}
+#about-content3 p
+{
+	font-size: 18px;
+	color: #fff;
+}
+#pool-img
+{
+	padding: 20px;
+}
+#pool-img img
+{
+	width: 100%;
+}
+#pool-img img:hover
+{
+	-webkit-transform: scale(1.07);
+	transition: 0.7sec;
+}
+
+
+/* Portfolio 포트폴리오 */
+#portfolio
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/po-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+#portfolio h1
+{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+#portfolio h1::after
+{
+  content: ' ';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+#portfolio img
+{
+	width: 100%;
+}
+
+
+/* Contact 문의하기 */
+#contect
+{
+  background: #d8d8d8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+#contect h1
+{
+  text-align: center;
+  color: #000 !important;
+  padding-bottom: 10px;
+}
+#contect h1::after
+{
+  content: ' ';
+  background: #000;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+#contect h3
+{
+	font-weight: bold;
+	margin-left: 25px;
+}
+.contact-form
+{
+  padding: 15px;
+}
+.form-control
+{
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder
+{
+  color: #999 !important;
+}
+.follow
+{
+  background: #fff;
+  border-radius: 7px;
+  padding: 20px;
+  margin: 23px;
+}
+.contact-info .fa
+{
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+.fa-twitter-square
+{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+/* Footer */
+#footer
+{
+  background: #404040;
+  color: #fff;
+  padding: 16px;
+}
+#footer .container
+{
+    border-top: 3px #fff;  /*왜 안돼..*/
+}
+.main-img {
+}
