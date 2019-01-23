@@ -129,6 +129,7 @@
 .about-content:hover
 {
 	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 	transition: 0.5sec;
 }
 .about-content2
@@ -141,6 +142,7 @@
 .about-content2 img:hover
 {
 	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
 	transition: 0.5sec;
 }
 #about-content1
@@ -171,6 +173,7 @@
 #about-content3:hover
 {
 	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
 	transition: 0.5sec;
 }
 #about-content3 h5
@@ -186,13 +189,14 @@
 {
 	padding: 20px;
 }
-#pool-img img
+.pool-img img
 {
 	width: 100%;
 }
-#pool-img img:hover
+.pool-img img:hover
 {
 	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
 	transition: 0.7sec;
 }
 
@@ -233,6 +237,20 @@
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
+}
+.pofol-img
+{
+	padding: 10px;
+}
+.pofol-img img
+{
+	width: 100%;
+}
+.pofol-img img:hover
+{
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
+	transition: 0.7sec;
 }
 
 
