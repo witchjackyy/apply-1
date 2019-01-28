@@ -200,6 +200,18 @@
 	transition: 0.7sec;
 }
 
+/* pool-info 수영장 */
+#pool-info
+{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url("../img/동강-1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 30px;
+  padding-bottom: 50px;
+	
+}
 
 /* Portfolio 포트폴리오 */
 #portfolio
