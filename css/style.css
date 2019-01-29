@@ -134,9 +134,9 @@
 }
 .about-content:hover
 {
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-	transition: 0.5sec;
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+	transition: 0.8sec;
 }
 .about-content2
 {
@@ -209,7 +209,8 @@
 /* pool-info 수영장 */
 #pool-info
 {
-  /*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url("../img/동강-1.jpg");*/
+  /*background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../img/Water surface - Free Video - Footage_1.gif");*/
+  background-color: #E7E7E7;
   background-size: cover;
   background-position: center;
   color: #efefef !important;
@@ -220,6 +221,7 @@
 #pool-info h1
 {
     color: #343434;
+	font-weight: bold;
     text-align: center;
 	margin-bottom: 20px;
 }
@@ -231,6 +233,10 @@
   height: 3px;
   width: 220px;
   margin: 10px auto 5px;
+}
+.pool-info-text
+{
+	padding: 0px 0px;
 }
 .pool-option
 {
@@ -250,8 +256,14 @@
 }
 .pool-option-head
 {
-	padding: 10px 5px;
+	padding: 10px 5px 0px 5px;
 	font-weight: bold;
+}
+.pool-option-head h4
+{
+	font-family: 'Jua', sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
 }
 .pool-option-head span
 {
@@ -268,9 +280,10 @@
 	color: #000;
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 }
-.hr-sect {
+.hr-sect
+{
 	display: flex;
 	flex-basis: 100%;
 	align-items: center;
@@ -287,16 +300,9 @@
 	line-height: 0px;
 	margin: 0px 16px;
 }
-.pool-item>img
-{
-	padding: 10px;
-}
-.pool-item p
-{
-	text-align: center;
-}
 #pool-item
 {
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/Water surface - Free Video - Footage_1.gif");
 	background-color: #efefef;
 	background-size: cover;
 	background-position: center;
@@ -307,10 +313,47 @@
 }
 #pool-item h2
 {
-	color: #000;
+	color: #fff;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 30px;
+}
+.hr-sect2
+{
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #fff;
+	margin: px 0px;
+}
+.hr-sect2::before,.hr-sect2::after
+{
+	content: "";
+	flex-grow: 1;
+	background: #fff;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
+}
+.pool-item
+{
+	padding-top: 20px;
+}
+.pool-item>img
+{
+	border: #007EB6 solid 5px;
+	border-radius: 35px;
+}
+.pool-item p
+{
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 21px;
+	text-align: center;
+	font-family: 'Jua', sans-serif;
+	letter-spacing: 2px;
 }
 
 
@@ -320,7 +363,6 @@
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/po-bg.jpg");
   background-size: cover;
   background-position: center;
-  color: #efefef !important;
   background-attachment: fixed;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -342,8 +384,14 @@
 }
 #portfolio p
 {
+	color: #efefef !important;
+	margin-top: 100px;
+	font-size: 20px;
 	height: 500px;
 }
+
+
+/*
 #portfolio img
 {
 	height: 300px;
@@ -369,7 +417,7 @@
 	transform: scale(1.07);
 	transition: 0.7sec;
 }
-
+*/
 
 /* Contact 문의하기 */
 #contect
@@ -383,7 +431,7 @@
 {
   text-align: center;
   color: #000 !important;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 #contect h1::after
 {
@@ -391,13 +439,17 @@
   background: #000;
   display: block;
   height: 3px;
-  width: 170px;
-  margin: 20px auto 5px;
+  width: 190px;
+  margin: 10px auto 5px;
 }
 #contect h3
 {
 	font-weight: bold;
-	margin-left: 25px;
+	margin-left: 30px;
+}
+.btn-primary
+{
+	margin-left: 70px;
 }
 .contact-form
 {
@@ -416,7 +468,7 @@
 {
   background: #fff;
   border-radius: 7px;
-  padding: 20px;
+  padding: 30px;
   margin: 23px;
 }
 .contact-info .fa
@@ -425,11 +477,12 @@
   color: #007bff;
   font-weight: bold;
 }
-.fa-twitter-square
+.kakaotalk
 {
     margin-left: 10px;
     font-size: 30px;
 }
+
 
 /* Footer */
 #footer
