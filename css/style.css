@@ -11,10 +11,18 @@
   z-index: 10;
 }
 /*---- 로고 크기 설정-------*/
+.navbar-brand
+{
+	padding-left: 130px;
+}
 .navbar-brand img
 {
-  height: 60px;
-  padding-left: 70px;
+  height: 70px;
+  padding-left: 0px;
+}
+.navbar-nav
+{
+	padding-right: 100px;
 }
 .navbar-nav li
 {
@@ -60,6 +68,7 @@
 }
 .main-img
 {
+	width: 420px;
 	margin-top: 40px;
 	margin-bottom: 50px;
 }
@@ -372,6 +381,7 @@
   text-align: center;
   color: #efefef !important;
   padding-bottom: 10px;
+	letter-spacing: 2px;
 }
 #portfolio h1::after
 {
@@ -379,7 +389,7 @@
   background: #efefef;
   display: block;
   height: 3px;
-  width: 130px;
+  width: 150px;
   margin: 10px auto 5px;
 }
 #portfolio p
